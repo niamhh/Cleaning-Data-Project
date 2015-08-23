@@ -1,9 +1,9 @@
 ####Final dataframe columns:
 
 1. **subjectid**: id of subject being observed, 
-      ***1-30
+     * 1-30
 2. **activity**:     activity subject was recorded  
-      ***"WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", LAYING" 
+      *"WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", LAYING" 
 3. **Means** mean value of the measurement of subject by activity 
 4. **measurename  measurement of which the mean has been calculated**
   ***	tBodyAcc-mean()-X
