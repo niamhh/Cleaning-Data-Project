@@ -1,3 +1,4 @@
+
 # Cleaning-Data-Project
 ##Script: run_analysis.R
 The script does the following
@@ -13,3 +14,11 @@ The data are tidy because
 * Each variable forms a column.
 * Each observation forms a row.
 * Each type of observational unit forms a table. 
+
+##Notes on the Original Data
+The original data was collected from here
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+A fuller explanantion of the original measurements can be got there.
+
+The data set used for this analysis was from here
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
