@@ -52,9 +52,9 @@ colnames(meanstd) <- c("subject","activity",feature[cols,2])
 
 # get the means of each measure by subject and activity
 
-tidy<-ddply(meanstd, c("subject","activity"),summarise,Means=colMeans(meanstd[3:(length(names(meanstd)))]))
+tidy<-ddply(meanstd, c("subject","activity"),summarise,means=colMeans(meanstd[3:(length(names(meanstd)))]))
 measurenames <-colnames(meanstd[,3:81])
-tidy$measurename<-activitynames
+tidy$measurename<-measurenames
 
 write.table(tidy, "tidy.txt",row.names=FALSE)
 
